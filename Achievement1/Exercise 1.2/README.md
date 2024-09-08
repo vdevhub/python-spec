@@ -8,7 +8,7 @@ This part documents Python data type considerations and selection for a recipe a
    - `cooking_time (int)`: cooking time in minutes
    - `ingredients (list)`: ingredients, each of the str data type
   
-   - *Reason*: A dictionary is suitable for a single recipe object as it stores data in key-value pairs which helps to describe different values as opposed to storing just values without meaning. Additionally, a dictionary can be easily updated. The ingredients key is a nested list because each of the values is going to be the same type (String), these don't need specific descriptive keys, and a list will support easy searching and modification of the ingredients too.
+   - *Reason*: A dictionary is suitable for a single recipe object as it stores data in key-value pairs which helps to describe different values as opposed to storing just values without meaning. Additionally, a dictionary can be easily updated and expanded. The ingredients key is a nested list because each of the values is going to be the same type (String), these don't need specific descriptive keys, and a list will support easy searching and modification of the ingredients too.
   
 2. The outer structure called `all_recipes` is a list containing all recipe objects.
 

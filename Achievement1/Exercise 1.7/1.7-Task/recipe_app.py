@@ -6,6 +6,7 @@ from sqlalchemy import Integer, String
 from sqlalchemy.orm import sessionmaker
 
 # Creates an engine object connecting to the database
+# Update to use env variables
 engine = create_engine("mysql://cf-python:password@localhost/task_database")
 
 # Makes the session object to make changes

@@ -46,5 +46,6 @@ python recipe_app.py
 ```
 
 The main menu pops up:
+
 ![Screenshot 2024-10-01 at 13 47 01](https://github.com/user-attachments/assets/577a63a5-6c76-4d10-a855-07d786092b36)
 

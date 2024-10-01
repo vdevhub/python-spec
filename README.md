@@ -26,7 +26,8 @@ Then, in the terminal, navigate to the last exercise's task folder:
 ### Database Connection Setup
 Open the project in your chosen IDE, such as VSCode. In `python-spec/Achievement1/Exercise 1.7/1.7-Task/`, you'll have to create a new file `.env` and update it with your values as follows:
 
-```DBMS = 'mysql'
+```
+DBMS = 'mysql'
 USER_NAME = '<your_db_user_name>'
 PASSWORD = '<password_for_the_user>'
 HOST = 'localhost'

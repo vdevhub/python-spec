@@ -1,9 +1,9 @@
 # Import packages and methods
+from sqlalchemy.orm import declarative_base, sessionmaker
 from sqlalchemy import create_engine
-from sqlalchemy.orm import declarative_base
-from sqlalchemy import Column
-from sqlalchemy import Integer, String
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy import Column, Integer, String
+import os
+
 
 # Creates an engine object connecting to the database
 # Update to use env variables

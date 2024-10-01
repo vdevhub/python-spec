@@ -3,7 +3,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Integer, String
 import os
-
+from dotenv import load_dotenv
 
 # Creates an engine object connecting to the database
 # Update to use env variables

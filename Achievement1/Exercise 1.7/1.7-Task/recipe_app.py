@@ -5,9 +5,18 @@ from sqlalchemy import Column, Integer, String
 import os
 from dotenv import load_dotenv
 
+# Load environment variables
+load_dotenv()
+
+dbms = os.environ.get("DBMS")
+user_name = os.environ.get("USER_NAME")
+password = os.environ.get("PASSWORD")
+host = os.environ.get("HOST")
+database = os.environ.get("DATABASE")
+
 # Creates an engine object connecting to the database
 # Update to use env variables
-engine = create_engine("mysql://cf-python:password@localhost/task_database")
+engine = create_engine(f"{dbms}://{user_name}:{password}@{host}/{database}")
 
 # Makes the session object to make changes
 # to the database

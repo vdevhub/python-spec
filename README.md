@@ -19,10 +19,6 @@ In this repository, the final application is stored in the `Achievement1\Exercis
 Clone the entire repository first:
 ```git clone https://github.com/vdevhub/python-spec.git```
 
-### Change Directory
-Then, in the terminal, navigate to the last exercise's task folder:
-```cd python-spec/Achievement1/Exercise\ 1.7/1.7-Task/```
-
 ### Database Connection Setup
 Open the project in your chosen IDE, such as VSCode. In `python-spec/Achievement1/Exercise 1.7/1.7-Task/`, you'll have to create a new file `.env` and update it with your values as follows:
 
@@ -35,3 +31,10 @@ DATABASE = '<database_name>'
 ```
 
 Use the user name, password, and database name you created when setting up your MySQL using the guidance in the `Prerequisites` section (or another MySQL user and database you had used before and want to use for this app too).
+
+### Change Directory
+Then, in the terminal, navigate to the last exercise's task folder:
+```cd python-spec/Achievement1/Exercise\ 1.7/1.7-Task/```
+
+And run the app:
+```python recipe_app.py```

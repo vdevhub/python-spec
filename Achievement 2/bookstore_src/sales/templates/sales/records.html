@@ -7,5 +7,10 @@
   {% csrf_token %}
   {{form}}
   <button type="submit">search</button>
-
 </form>
+<br>
+{% if sales_df %}
+{{sales_df|safe}}
+{% else %}
+<h3> no data</h3>
+{% endif %}

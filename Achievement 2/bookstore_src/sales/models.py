@@ -14,7 +14,7 @@ class Sale(models.Model):
             str(self.book.name)
             + " sold "
             + str(self.quantity)
-            + " pcs for"
+            + " pcs for "
             + str(self.price)
             + " on "
             + str(self.date_created)
